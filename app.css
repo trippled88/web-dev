@@ -1,0 +1,1020 @@
+*{
+    margin: 0;
+    font-style: none;
+}
+
+body{
+    background-color: #f6f6f6;
+    height: 2000px;
+
+}
+
+.navbar{
+    display: flex;
+    background-color: #f6f6f6;
+    justify-content: center;
+}
+
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 13px 33px;
+}
+
+.navbar ul li{
+    display: flex;
+    margin: 0 23px;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul li a{
+    color: rgb(85, 85, 85);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.navbar ul li a img {
+    width: 13px;
+    background-size: contain;
+}
+
+.promo{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.promo h1{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 1;
+    margin: 20px 0;
+    margin-right: 130px;
+}
+
+
+.promo h1 a{
+    text-decoration: none;
+}
+
+.store{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 140px;
+}
+
+.store h2{
+    font-size: 50px;
+    margin: 80px ;
+    /* margin-right: 430px; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+}
+
+.store .headlines{
+    display: flex;
+    justify-content: left;
+    margin-left: 170px;
+}
+
+.store .headlines h2 {
+    color: rgba(53, 53, 53, 0.711);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 45px;
+    margin-left: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.store .headlines span{
+    color: black;
+    font-size: 45px;
+    margin: 15px;
+    font-weight: 545;
+    margin-left: 1px;
+}
+
+.store .help_links{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-right: 300px;
+    margin-bottom: 10px;
+    margin-left: 90px;
+}
+
+.help_links .help {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.help_links .help h3{
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+
+}
+
+.help_links .help a{
+    text-decoration: none;
+    margin-top: 80px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(108, 108, 255);
+
+}
+
+.help_links .visit {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 2px;
+}
+
+.help_links .visit h3{
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+
+.help_links .visit a{
+    text-decoration: none;
+    font-size: smaller;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 0;
+    color: rgb(108, 108, 255);
+
+}
+
+.help_links .visit .find{
+    margin-right: 7px;
+}
+
+.store .help_links .help img{
+    width: 30px;
+    background-size: contain;
+    margin-right: 15px;
+    margin-bottom: 30px;
+}
+
+.store .help_links .visit img{
+    width: 26px;
+    background-size: contain;
+    margin-right: 18px;
+}
+
+.scrollbox{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding-left: 365px;
+    /* justify-content: space-around; */
+    padding-top: 10px;
+    scroll-behavior: smooth;
+    scrollbar-color: transparent;
+    background: transparent;
+
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+.scrollbox div{
+/* padding-right: 10px; */
+    margin-right: 20px;
+
+}
+
+.scrollbox img{
+    width: 120px;
+    /* padding: 5px 10px; */
+    margin-right: 5px;
+    padding-bottom: 1px;
+}
+
+.scrollbox  a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    margin-right: 8px;
+}
+
+.latest h2 span{
+    color: rgb(106, 106, 106);
+  
+}
+
+.latest{
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+.latest_cards{
+    display: flex;
+    flex-direction: row;
+    padding-left: 365px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    box-shadow: inset;
+}
+
+.the_latest{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-weight: 400;
+    margin-left: 365px;
+}
+
+.latest img{
+    width: 400px;
+
+}
+
+.save_card{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    position: relative;
+    border: 3px solid transparent;
+    border-radius:15px ;
+    background-color: white;
+    margin-right: 30px; 
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); 
+
+}
+
+
+.limited_time_offer{
+    position: absolute;
+    top: 5%;
+    left: 16px;
+ 
+} 
+
+.limited_time_offer h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-weight: 100;
+    color: rgb(133, 133, 133);
+
+}
+
+.save_on_mac {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 12%;
+    left: 16px; 
+
+}
+
+.save_on_mac h2{
+    font-weight: 500;
+}
+
+
+.free_gift_card{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 25%;
+    left: 16px; 
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); 
+
+    
+}
+
+.free_gift_card h3{
+    font-weight: 500;
+    font-size: 15px;
+    color: rgb(133, 133, 133);
+}
+
+.iphone_card{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    position: relative;
+    border: 3px solid transparent;
+    border-radius:15px ;
+    background-color: black;
+    margin-right: 30px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); 
+}
+
+.iphone_14_pro{
+    position: absolute;
+    top: 5%;
+    left: 16px;
+} 
+
+.iphone_14_pro h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-weight: 100;
+    color: white;
+
+}
+
+.pro_beyond {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 12%;
+    left: 16px; 
+
+}
+
+.pro_beyond h2{
+    font-weight: 500;
+    color: white;
+}
+
+.iphone_pricing{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 20%;
+    left: 16px; 
+    
+}
+
+.iphone_pricing h3{
+    font-weight: 50;
+    font-size: 15px;
+    color: white;
+}
+
+.macbook_air_card{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    position: relative;
+    border: 3px solid transparent;
+    border-radius:15px ;
+    background-color: white;
+    margin-right: 30px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);     
+}
+
+.macbook_air_15{
+    position: absolute;
+    top: 5%;
+    left: 16px;
+ 
+} 
+
+.macbook_air_15 h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-weight: 100;
+    color: black;
+
+}
+
+.impressively_big {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 12%;
+    left: 16px; 
+}
+
+.impressively_big h2{
+    font-weight: 500;
+    color: black;
+}
+
+.macbook_air_pricing{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 25%;
+    left: 16px; 
+    
+}
+
+.macbook_air_pricing h3{
+    font-weight: 50;
+    font-size: 15px;
+    color: black;
+}
+
+.ipod_air_card{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    position: relative;
+    border: 3px solid transparent;
+    border-radius:15px ;
+    background-color: black;
+    margin-right: 30px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);   
+}
+
+.ipod_air{
+    position: absolute;
+    top: 5%;
+    left: 16px;
+ 
+} 
+
+.ipod_air h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-weight: 100;
+    color: white;
+
+}
+
+.light_bright{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 12%;
+    left: 16px; 
+    color: white;
+
+}
+
+.light_bright h2{
+    font-weight: 500;
+    color: white;
+ 
+}
+
+
+.ipod_air_pricing{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 25%;
+    left: 16px; 
+    
+}
+
+.ipod_air_pricing h3{
+    font-weight: 50;
+    font-size: 15px;
+    color: white;
+}
+
+
+.watch_card{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    position: relative;
+    border: 3px solid transparent;
+    border-radius:15px ;
+    background-color: black;
+    margin-right: 30px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);   
+}
+
+.apple_watch_series_8{
+    position: absolute;
+    top: 5%;
+    left: 16px;
+ 
+} 
+
+.apple_watch_series_8 h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-weight: 100;
+    color: white;
+
+}
+
+.watch_healthy{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 12%;
+    left: 16px; 
+    color: white;
+    
+
+}
+
+.watch_healthy h2{
+    font-weight: 500;
+    color: white;
+ 
+}
+
+.watch_pricing{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 25%;
+    left: 16px; 
+    
+}
+
+.watch_pricing h3{
+    font-weight: 50;
+    font-size: 15px;
+    color: white;
+}
+
+.wonderfull_card{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    position: relative;
+    border: 3px solid transparent;
+    border-radius:15px ;
+    background-color: white;
+    margin-right: 30px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); 
+
+}
+
+.wonderfull_iphone{
+    position: absolute;
+    top: 5%;
+    left: 16px;
+ 
+} 
+
+.wonderfull_iphone h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-weight: 100;
+    color: black;
+
+}
+
+.wonderfull{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 12%;
+    left: 16px; 
+    color: black;
+
+}
+
+.wonderfull h2{
+    font-weight: 500;
+    color: black;
+ 
+}
+
+.wonderfull_pricing{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 25%;
+    left: 16px; 
+    
+}
+
+.wonderfull_pricing h3{
+    font-weight: 50;
+    font-size: 15px;
+    color: black;
+}
+
+.iphone_finance_card{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    position: relative;
+    border: 3px solid transparent;
+    border-radius:15px ;
+    background-color: white;
+    margin-right: 30px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); 
+
+}
+
+.iphone_spread{
+    position: absolute;
+    top: 5%;
+    left: 16px;
+ 
+} 
+
+.iphone_spread h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-weight: 100;
+    color: black;
+
+}
+
+.spread_header_iphone{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 12%;
+    left: 16px; 
+    color: black;
+
+}
+
+.spread_header_iphone h2{
+    font-weight: 500;
+    color: black;
+ 
+}
+
+
+.spread_details_iphone{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 25%;
+    left: 16px; 
+    
+}
+
+.spread_details_iphone h3{
+    font-weight: 50;
+    font-size: 15px;
+    color: black;
+}
+
+
+.help_is_here h2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-weight: 400;
+    margin-left: 365px;
+    color: rgb(133, 133, 133);
+    font-weight: 700;
+}
+
+.help_is_here h2 span{
+    color: black;
+}
+
+
+
+.specialist_card{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    position: relative;
+    border: 3px solid transparent;
+    border-radius:15px ;
+    background-color: white;
+    margin-right: 30px;
+    margin-left: 365px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+
+}
+
+
+.apple_specialist{
+    position: absolute;
+    top: 5%;
+    left: 16px;
+
+ 
+} 
+
+.shop_specialist{
+    position: absolute;
+    top: 13%;
+    left: 16px;
+
+ 
+} 
+
+.shop_specialist h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: black;
+}
+
+.apple_specialist h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-weight: 100;
+    color: black;
+}
+
+.specialist_card img{
+    width: 500px;
+    
+
+}
+
+.horizonal_container{
+    display: flex;
+    flex-direction: column;
+}
+
+.horizonal_container img{
+    width: 500px;
+    border: 1px transparent;
+    border-radius: 5px ;
+    display: block;
+
+}
+
+.personal_session{
+    position: relative;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); 
+} 
+
+.genius_bar{
+    position: relative;
+    margin-top: 25px;
+    display: block;
+
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+
+}
+
+.personal_session h2{
+    position: absolute;
+    font-weight: 200;
+    top: 20%;
+    left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+ 
+} 
+
+.genius_bar h2{
+    position: absolute;
+    font-weight: 200;
+    top: 20%;
+    left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* left: 16px; */
+ 
+} 
+
+.help_hprizonal{
+    display: flex;
+    flex-direction: row;
+}
+
+.apple_difference{
+    display: flex;
+    /* flex-direction: row;
+    justify-content: center;
+    align-items: center; */
+}
+
+.apple_difference h2{
+    margin-left: 365px;
+
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+
+.apple_difference h2 span{
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(133, 133, 133);
+
+}
+
+.apple_store_promo{
+    display: flex;
+    flex-direction: row;
+    padding-left:365px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    /* width: 100%; */
+
+}
+
+.apple_store_promo .trade_your_device{
+    width: 3600px;
+    height: 140px;
+    justify-content: center;
+    background-color: white;
+    margin-right: 20px;
+    border: 3px solid transparent;
+    border-radius:15px ;
+    display: flex;
+    justify-content: center; 
+    padding: 50px 0px;
+    flex-shrink: 0;
+    flex-basis: 23%;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.apple_store_promo .trade_your_device h2{
+    top: 20px;
+    font-size: 25px;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    /* justify-content: center; */
+    align-items: center;
+    /* margin-top: 15px; */
+    text-align: left;
+}
+
+.apple_store_promo .trade_your_device h2 span{
+    color: rgb(0, 140, 255);
+}
+
+.apple_store_promo .customise_your_mac{
+    width: 3000px;
+    justify-content: center;
+    background-color: white;
+    margin-right: 20px;
+    border: 3px solid transparent;
+    border-radius:15px ;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+    flex-shrink: 0;
+    flex-basis: 23%;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+    
+
+}
+
+.apple_store_promo .customise_your_mac h2{
+    top: 25px;
+    font-size: 25px;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    /* justify-content: center; */
+    align-items: center;
+    /* margin-top: 15px; */
+    text-align: left;
+}
+
+.apple_store_promo .customise_your_mac h2 span{
+    background-image: linear-gradient(to right,#f8ab5e 0,#f36961 20%,#a176c8 40%,#759beb 60%,#65beb3 80%,#70db96 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.apple_store_promo .personalised_shopping{
+    width: 3000px;
+    justify-content: center;
+    background-color: white;
+    margin-right: 20px;
+    border: 3px solid transparent;
+    border-radius:15px ;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+    flex-shrink: 0;
+    flex-basis: 23%;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+}
+
+.apple_store_promo .personalised_shopping h2{
+    top: 20px;
+    font-size: 25px;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    /* justify-content: center; */
+    align-items: center;
+    /* margin-top: 15px; */
+    text-align: left;
+}
+
+.apple_store_promo .personalised_shopping h2 span{
+    color: rgb(0, 140, 255);
+}
+
+.apple_store_promo .engrave{
+    width: 3000px;
+    justify-content: center;
+    background-color: white;
+    margin-right: 20px;
+    border: 3px solid transparent;
+    border-radius:15px ;
+    display: flex;
+    flex-shrink: 0;
+    flex-basis: 23%;
+    justify-content: center;
+    padding: 50px 0px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+}
+
+.apple_store_promo .engrave h2{
+    top: 20px;
+    font-size: 25px;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    /* justify-content: center; */
+    align-items: center;
+    /* margin-top: 15px; */
+    text-align: left;
+}
+
+.apple_store_promo .engrave h2 span{
+    color: rgb(187, 10, 226);
+
+}
+
+.apple_store_promo .monthly_instalments{
+    width: 3000px;
+    justify-content: center;
+    background-color: white;
+    margin-right: 20px;
+    border: 3px solid transparent;
+    border-radius:15px ;
+    display: flex;
+    flex-shrink: 0;
+    flex-basis: 23%;
+    justify-content: center;
+    padding: 50px 0px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+}
+
+.apple_store_promo .monthly_instalments h2{
+    top: 20px;
+    font-size: 25px;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    /* justify-content: center; */
+    align-items: center;
+    /* margin-top: 15px; */
+    text-align: left;
+}
+
+.apple_store_promo .two_hour_delivery{
+    width: 2000px;
+    justify-content: center;
+    background-color: white;
+    margin-right: 20px;
+    border: 3px solid transparent;
+    border-radius:15px ;
+    display: flex; 
+    flex-shrink: 0;
+    flex-basis: 23%;
+    justify-content: center;
+    padding: 50px 0px; 
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+}
+
+.apple_store_promo .two_hour_delivery h2{
+    top: 20px;
+    font-size: 25px;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 15px; */
+    text-align: left;
+}
+
+.apple_store_promo .two_hour_delivery h2 span{
+    color: #34eb74;
+}
+
+.accessories h2 span{
+    color: rgb(151, 151, 151);    
+}
+
+
+.accessories{
+    margin-bottom: 40px;
+}
+
+.accessories h2{
+    margin-left: 365px;
+
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    padding-bottom: 40px ;
+}
+
+.accessories h2 span{
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(133, 133, 133);
+
+}
